@@ -1,0 +1,6 @@
+
+git add . && git commit -m "update config.properties for testing reasons" && git push
+
+curl https://raw.githubusercontent.com/vemmkof/archaius-config/main/config.properties
+curl http://192.168.0.112:8080/properties/int/version
+curl http://192.168.0.112:8080/properties/string/environment
